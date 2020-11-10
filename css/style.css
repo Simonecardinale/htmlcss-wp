@@ -174,7 +174,35 @@ p {
 footer {
   width: 70vw;
   height: 100px;
-  background-color: green;
+  background-color: white;
   margin: auto;
+  text-align: center;
+  position: relative;
 }
+
+.made-by {
+  border-bottom: 2px solid grey;
+}
+
+.made-by h6 {
+  color: grey;
+}
+
+.icon-container {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon-container > i {
+  color: grey;
+  font-size: 40px;
+}
+
+.fa-instagram {
+  margin: 0 calc(100% / 3);
+}
+
 /* /footer */
