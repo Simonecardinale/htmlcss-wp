@@ -78,6 +78,15 @@ main::after {
   display: table;
   clear: both;
 }
+ /* regole generali dei box */
+.column {
+  width: 30%;
+  height: 400px;
+  background-color:white;
+  float: left;
+  vertical-align: top;
+}
+/* /regole generali dei box */
 
 /* box sinistro */
 
@@ -87,12 +96,26 @@ main::after {
   float: left;
 }
 
-.column {
-  width: 30%;
-  height: 400px;
-  background-color: blue;
+.i-container {
+  width: 20%;
   float: left;
-  vertical-align: top;
+}
+
+.h2-container {
+  width: 80%;
+  float: left;
+}
+
+.i-container > i, .box-title {
+  font-size: 36px;
+}
+
+.i-container > i {
+  color: orange;
+}
+
+.box-title {
+  color: grey;
 }
 
 .central-box {
