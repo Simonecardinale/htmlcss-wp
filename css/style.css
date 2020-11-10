@@ -82,9 +82,6 @@ main::after {
  /* regole generali degli aside */
 .column {
   width: 30%;
-  /* cancellare */
-  height: 400px;
-  /* /cancellare */
   background-color:white;
   float: left;
   vertical-align: top;
@@ -119,7 +116,11 @@ main::after {
 
 .box-title {
   color: grey;
-  margin: 20px 0;
+  margin: 20px 10px;
+}
+
+.h2-container > h2 {
+  margin: 0 0 10px;
 }
 
 .organic-themes > li {
@@ -138,7 +139,11 @@ main::after {
   margin: 0 5%;
 }
 
-.central-box > p {
+.central-box > h2 {
+  margin: 20px 10px;
+}
+
+p {
   margin: 20px 10px;
   line-height: 1.6;
 }
@@ -154,10 +159,12 @@ main::after {
 }
 
 .right {
-  height: 350px;
   width: 100%;
-  float: none;
   margin-bottom: 30px;
+}
+
+.right > h2{
+  font-size: 30px;
 }
 
 /* /box destro */
